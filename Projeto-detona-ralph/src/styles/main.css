@@ -1,0 +1,58 @@
+/* Container principal que define a estrutura da página */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+/* Estilização do menu */
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+/* Estilização para seções do menu: tempo, pontuação, recorde e vidas */
+.menu-time,
+.menu-score,
+.menu-record,
+.menu-lives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Painel principal do jogo */
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilização dos quadrados */
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #7fffd4;
+}
+
+/* Estilização do inimigo */
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+}
+
+/* Estilização específica para a seção de vidas no menu */
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
